@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="66dp"
+                android:text="PhisGuard"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="62dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_settings" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/main_image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main_image" />
+
+        <TextView
+            android:id="@+id/scan_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Scan to ensure your device is safe"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"/>
+
+        <TextView
+            android:id="@+id/removal_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="We will find and remove any malicious software from\nyour phone"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text" />
+
+        <Button
+            android:id="@+id/start_scan_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Start Scan"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/primary_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/secondary_text">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the common threats that can be delivered to your device if you don't scan URL before visiting?"
+                android:layout_margin="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/primary_text"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Malware"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software that is specifically designed\nto disrupt, damage, or gain\nunauthorized access to a computer\nsystem."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/secondary_text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Spyware"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Software that enables a user to obtain\ncovert information about another's\ncomputer activities by transmitting\ndata covertly from their hard drive."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/secondary_text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Ransomware"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A type of malware that prevents users\nfrom accessing their system or\npersonal files and demands ransom\npayment in order to regain access."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/secondary_text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Phishing"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The fraudulent attempt to obtain\nsensitive information such as\nusernames, passwords and credit card\ndetails by disguising oneself as a\ntrustworthy entity."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/secondary_text"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+    </LinearLayout>
+</ScrollView>

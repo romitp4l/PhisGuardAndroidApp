@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#6200EE</color> <!-- A shade of purple for primary elements -->
+    <color name="primary_dark_color">#3700B3</color> <!-- Darker shade for status bars, etc. -->
+    <color name="primary_light_color">#BB86FC</color> <!-- Lighter shade for backgrounds, etc. -->
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#03DAC6</color> <!-- A turquoise shade for secondary elements -->
+    <color name="secondary_dark_color">#018786</color> <!-- Darker turquoise for accents -->
+    <color name="secondary_light_color">#A7FFEB</color> <!-- Lighter shade for background highlights -->
+
+    <!-- Text Colors -->
+    <color name="primary_text">#212121</color> <!-- Dark text for readability -->
+    <color name="secondary_text">#757575</color> <!-- Lighter text for secondary content -->
+    <color name="accent_text">#FF4081</color> <!-- Accent text color for highlights -->
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color> <!-- White background for clean design -->
+    <color name="background_light">#F5F5F5</color> <!-- Light grey background for card views or sections -->
+
+    <!-- Status Bar Colors -->
+    <color name="status_bar_color">#6200EE</color> <!-- Matches primary dark color for consistency -->
+
+    <!-- Button and Control Colors -->
+    <color name="button_color">#6200EE</color> <!-- Primary button color -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White text on buttons -->
+
+    <!-- Card and Borders -->
+    <color name="card_background">#F5F5F5</color> <!-- Light background for cards -->
+    <color name="border_color">#DDDDDD</color> <!-- Light grey borders for dividing sections -->
+
+    <!-- General Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
