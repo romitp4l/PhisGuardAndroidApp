@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="We will find and remove any malicious software from\nyour phone"
+            android:text="We will find and help you  remove any malicious link  from your phone ."
             android:textSize="14sp"
             android:textColor="@color/secondary_text" />
 
@@ -77,14 +77,15 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/secondary_text">
+            android:background="@color/background_light">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="What are the common threats that can be delivered to your device if you don't scan URL before visiting?"
                 android:layout_margin="16dp"
-                android:textSize="20sp"
+                android:textSize="28sp"
+                android:textStyle="bold"
                 android:textColor="@color/primary_text"/>
 
         </androidx.cardview.widget.CardView>
